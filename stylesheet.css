@@ -1,0 +1,70 @@
+/* Füge hier deine benutzerdefinierten Stile hinzu */
+
+body {
+  background-color: #020202;
+}
+
+p {
+  color: #f6f6f6;
+}
+
+a {
+  color: #f6f6f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fafafa;
+}
+
+.container {
+  background-color: #161616;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+nav,
+.navbar-black {
+  background-color: #161616;
+}
+
+.nav-link {
+  color: #f6f6f6;
+}
+
+.navbar-brand {
+  color: #fafafa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.review {
+  padding: 10px 0;
+  background-color: #282828;
+}
+
+.review h3 {
+  color: #007bff;
+}
+
+.card {
+  background-color: #282828;
+}
+.quantityInput {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #161616;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}

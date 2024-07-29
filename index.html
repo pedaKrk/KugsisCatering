@@ -10,19 +10,22 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="stylesheet.css" />
-    <title>Raimunds Kitchen</title>
+    <title>Kugsis Catering</title>
   </head>
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand navbar-dark  navbar-black d-none d-lg-block">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#main">Raimunds Kitchen</a>
+        <a class="navbar-brand" href="#main">Kugsis Catering</a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#location">Lieferorte</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#menu">Menü</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#infos">Infos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Kontakt</a>
@@ -34,20 +37,23 @@
     <!--Main-->
     <section class="container mt-lg-5" id="cannaband">
       <div class="row">
-        <div class="col-md-6">
-          <div class="text-center mt-5">
-            <h1>Raimunds Kitchen</h1>
-          </div>
-          <div class="text-center my-5">
-            <p>Catering service in Amstetten und Umgebung</p>
-          </div>
-          <div class="mt-5 p-5 d-flex flex-row justify-content-center">
-            <a href="#menu" class="link mx-4"> Infos über mein Angebot</a>
-            <a href="#contact" class="link mx-4"> Meine Kontaktdaten</a>
+        <div class="col-md-6 ">
+          <div class="d-flex flex-column min-vh-100 justify-content-center">
+            <div class="text-center mt-5 mb-3">
+              <h1>Kugsis Catering</h1>
+            </div>
+            <div class="border border-bottom mx-5"></div>
+            <div class="text-center my-3">
+              <h5>Homemade Quality</h5>
+            </div>
+            <div class="mt-5 p-5 d-flex flex-row justify-content-center">
+              <a href="#menu" class="link mx-4"> Infos über mein Angebot</a>
+              <a href="#contact" class="link mx-4"> Meine Kontaktdaten</a>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
-          <img src="img/CBD.jpg" alt="Produktbild" class="img-fluid w-100" />
+          <img src="img/mainpic.jpeg" alt="Produktbild" class="img-fluid w-100" />
         </div>
       </div>
     </section>
@@ -57,6 +63,7 @@
       <div class="my-4 text-center">
         <h2>Menü</h2>
       </div>
+      <!--Unterteilen in Grillerei, Kalte Platten, usw-->
       <div class="row px-3 d-flex flex-row justify-content-between">
         <div class="col-md-5 card p-4 m-4 border border-dark rounded-4">
           <img src="img/ripperl.jpeg" alt="" class="img-fluid" />
@@ -85,7 +92,22 @@
       </div>
     </section>    
 
+    <!-- Infos -->
+    <section class="container mt-5" id="contact">
+      <div class="text-center my-4">
+        <h2>Infos</h2>
+      </div>
+      <div class="text-center">
+        <p>Name: Raimund Kugler</p>
+        <p>Tel: <a href="tel:+43 676 3569925">+43 676 3569925</a></p>
+        <p>E-mail: <a href="mailto:raimund.kugler@gmx.at">raimund.kugler@gmx.at</a></p>
+        <p>Ort: Amstetten City</p>
+        <p>Straße: Straße</p>
+      </div>
+    </section>
+
     <!-- Lieferort -->
+    <!-- 
     <section class="container mt-5" id="location">
       <div class="my-4 text-center">
         <h2>Lieferort</h2>
@@ -99,20 +121,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Kontaktdaten -->
-    <section class="container mt-5" id="contact">
-      <div class="text-center my-4">
-        <h2>Kontaktdaten</h2>
-      </div>
-      <div class="text-center">
-        <p>Name: Raimund Kugler</p>
-        <p>Tel: <a href="tel:+43 123 1234567">+43 123 1234567</a></p>
-        <p>E-mail: <a href="mailto:raimunds.kitchen@gmail.com">raimunds.kitchen@gmail.com</a></p>
-        <p>Ort: Amstetten City</p>
-        <p>Straße: Straße</p>
-      </div>
-    </section>
+    -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -19,6 +19,26 @@ h5 {
   color: #b09876;
 }
 
+.title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.line{
+  border-top-style: solid;
+  border-color: #b09876;
+  border-width: 2px;
+}
+
+.main-card{
+  background-color: #b09876;
+}
+
+.main-card-link{
+  color:#020202;
+}
+
 .container {
   background-color: #161616;
   padding: 20px;
@@ -31,7 +51,7 @@ nav,
 }
 
 .nav-link {
-  color: #f6f6f6;
+  color: #b09876;
 }
 
 .navbar-brand {
@@ -41,15 +61,6 @@ nav,
 img {
   max-width: 100%;
   height: auto;
-}
-
-.review {
-  padding: 10px 0;
-  background-color: #282828;
-}
-
-.review h3 {
-  color: #007bff;
 }
 
 .card {

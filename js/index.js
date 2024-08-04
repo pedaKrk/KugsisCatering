@@ -19,13 +19,18 @@ function createMenuElement(key, data) {
     card.className = "card p-4 text-center mb-4 mt-5 border border-dark rounded-4";
 
     let cardHeader = document.createElement('div');
-    cardHeader.className = "card-header";
+    cardHeader.className = "m-4";
 
     let header = document.createElement('h3');
     header.innerText = key;
 
     cardHeader.appendChild(header);
     card.appendChild(cardHeader);
+
+    let border = document.createElement('div');
+    border.className = "line mx-5 mb-4"
+
+    card.appendChild(border)
 
     let cardBody = document.createElement('div');
     cardBody.className = "card-body";

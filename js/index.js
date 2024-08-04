@@ -16,7 +16,7 @@ async function fetchMenu() {
 
 function createMenuElement(key, data) {
     let card = document.createElement('div');
-    card.className = "card p-4 text-center mb-4 mt-5";
+    card.className = "card p-4 text-center mb-4 mt-5 border border-dark rounded-4";
 
     let cardHeader = document.createElement('div');
     cardHeader.className = "card-header";

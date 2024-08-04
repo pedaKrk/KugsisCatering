@@ -1,0 +1,37 @@
+{
+    "Suppen": {
+        "Klare Suppe": "Klare Suppe mit Frittaten; Nudeln; Leberknödel oder Griesnockerl",
+        "Cremesuppe": "Cremesuppe je nach Saison"
+    },
+    "Hauptgerichte": {
+        "Schnitzel": "Schnitzel (Schwein, Pute, Huhn)",
+        "Cordon bleu": "Cordon bleu (Schwein, Pute)",
+        "Backhendl": "Backhendl",
+        "Schweinsbraten": "Schweinsbraten vom Karree oder Schopf",
+        "Rindsbraten": "Rindsbraten",
+        "Rindsrouladen": "Rindsrouladen",
+        "Zwiebelrostbraten": "Zwiebelrostbraten",
+        "Fleischknödel": "Fleischknödel",
+        "Champignonschnitzel": "Champignonschnitzel"
+    },
+    "Beilagen": {
+        "1": "Reis, Petersilkartoffel, Pommes",
+        "2": "Semmelknödel, Kartoffelknödel, Krautsalat warm",
+        "3": "Nudeln, Spätzle, Kroketten, Rotkraut"
+    },
+    "Vegetarische Gerichte":{
+        "Gemüselaibchen": "Gemüselaibchen",
+        "Käsespätzle": "Käsespätzle",
+        "Gemüselasagne": "Gemüselasagne",
+        "Gebackenes Gemüse": "Gebackenes Gemüse",
+        "Panierter Käse": "Panierter Käse",
+        "Spaghetti mit Tomatensauce": "Spaghetti mit Tomatensauce"
+    },
+    "Saucen": {
+        "1": "Kräutersauce, Schnittlauchsauce, Sauce Tartare, Cocktailsauce"
+    },
+    "Salate":{
+        "1": "Tomaten, Gurken, Rahmgurken, Erdäpfel, Bohnen, Fisolen, Blattsalate"
+    }
+
+}

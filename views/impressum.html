@@ -20,22 +20,49 @@
         <link rel="icon" type="image/x-icon" href="../img/favicon.jpeg" />
     </head>
     <body>
-        <nav
-            class="navbar navbar-expand navbar-dark navbar-black d-none d-lg-block"
-        >
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-black">
             <div class="container-fluid">
-                <a class="navbar-brand title-font" href="../index.html"
+                <a class="navbar-brand title-font" href="../index.html#home"
                     >Kugsis Catering</a
                 >
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Zurück</a>
-                    </li>
-                </ul>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-expanded="true"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#home"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#menu"
+                                >Menü</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#contact"
+                                >Kontakt</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#impressum">Impressum</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
-        <section class="mt-5 p-4">
+        <section class="mt-5 p-4" id="impressum">
             <div class="container text-center">
                 <h1 class="my-4">Impressum</h1>
                 <div class="mt-5 mb-4">

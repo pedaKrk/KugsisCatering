@@ -27,29 +27,32 @@
     </head>
     <body>
         <!--Navbar-->
-        <nav
-            class="navbar navbar-expand navbar-dark navbar-black d-none d-lg-block"
-        >
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-black">
             <div class="container-fluid">
                 <a class="navbar-brand title-font" href="#main"
                     >Kugsis Catering</a
                 >
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menü</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#infos">Infos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Kontakt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="views/impressum.html"
-                            >Impressum</a
-                        >
-                    </li>
-                </ul>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-expanded="true"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse show" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menü</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -156,10 +159,10 @@
             </div>
         </section>
 
-        <!-- Infos -->
+        <!-- Kontaktdaten -->
         <section class="container mt-5" id="contact">
             <div class="text-center my-4">
-                <h2>Infos</h2>
+                <h2>Kontaktdaten</h2>
             </div>
             <div class="text-center">
                 <p>Raimund Kugler</p>

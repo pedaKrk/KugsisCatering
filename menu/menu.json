@@ -1,13 +1,13 @@
 {
-    "Suppen": {
-        "Klare Suppe": "Klare Suppe mit Frittaten; Nudeln; Leberknödel oder Griesnockerl",
+    "Suppen (2€)": {
+        "Klare Suppe": "Klare Suppe mit Frittaten, Nudeln, Leberknödel oder Griesnockerl",
         "Cremesuppe": "Cremesuppe je nach Saison"
     },
     "Hauptgerichte": {
         "Schnitzel": "Schnitzel (Schwein, Pute, Huhn)",
         "Cordon bleu": "Cordon bleu (Schwein, Pute)",
         "Backhendl": "Backhendl",
-        "Schweinsbraten": "Schweinsbraten vom Karree oder Schopf",
+        "Schweinsbraten": "Schweinsbraten vom Karree oder Bauch",
         "Rindsbraten": "Rindsbraten",
         "Rindsrouladen": "Rindsrouladen",
         "Zwiebelrostbraten": "Zwiebelrostbraten",
